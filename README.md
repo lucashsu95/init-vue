@@ -1,45 +1,30 @@
-# vue-template
+# init Vue with typescript,tailwindcss
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+## Quick Start
+```bash
+npx degit github:lucashsu95/init-vue my-app
+pnpm i
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
+### Haven't pnpm?
+```bash
+npm install -g pnpm
 ```
 
-### Type-Check, Compile and Minify for Production
+![alt text](./docs/image.png)
 
-```sh
-pnpm build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-pnpm test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+## Has Package
+- typescript
+- prettier
+- vue router
+- pinia
+- postcss
+- vitest
+- eslint
+  - eslint-config-prettier
+  - eslint-plugin-prettier
+  - eslint-plugin-vue
+- css
+  - tailwindcss
+  - autoprefixer
+  - postcss
